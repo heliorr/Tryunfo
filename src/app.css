@@ -1,0 +1,131 @@
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(38,38,187,1) 12%, rgba(0,212,255,1) 92%);
+}
+
+header {
+  background-color: green;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+header img {
+  height: 30px;
+  width: 50px;
+}
+
+header div p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.cardCreate {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 50px;
+}
+
+.formStyle {
+  width: 250px;
+  height: 450px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.formStyle button {
+  background-color: green;
+  border-radius: 10px;
+  color: black;
+}
+
+.formStyle button:disabled {
+  background-color: red;
+  border-radius: 10px;
+  color: black;
+}
+
+.cardStyle {
+  width: 250px;
+  height: 450px;
+  border: 1px solid black;
+  display: flex;
+  -webkit-box-shadow: 0px -2px 15px 4px rgba(0,0,0,0.58); 
+  box-shadow: 0px -2px 15px 4px rgba(0,0,0,0.58);
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url("https://img.freepik.com/free-vector/neon-game-controllers-joysticks-game-console_32996-1086.jpg?w=2000");
+}
+
+.trunfo{
+  -webkit-box-shadow: 0px -2px 15px 4px rgba(228, 213, 10, 0.58); 
+  box-shadow: 0px -2px 15px 4px rgba(163, 155, 44, 0.58);
+}
+
+.imagem {
+  width: 150px;
+}
+
+.text {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ataque {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ataque p {
+  width: 50px;
+  border: 0.5px solid black;
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.infor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infor p {
+  width: 50px;
+  text-size-adjust: 10px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px;
+}
+
+.cardView {
+  display: flex;
+  margin-top: 20px;
+  position: absolute;
+  width: 1440px;
+  height: 2391px;
+  left: 0px;
+  top: 1061px;
+}
+
+.cardView form {
+  display: flex;
+  height: 450px;
+  flex-direction: column;
+}
+
+.buttonView {
+  position: absolute;
+  background-color: red;
+  color: black;
+}
